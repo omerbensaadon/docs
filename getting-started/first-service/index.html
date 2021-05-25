@@ -3924,6 +3924,8 @@ This service will accept an environment variable, <code>TARGET</code>, and print
 --env <span class="nv">TARGET</span><span class="o">=</span>World <span class="se">\</span>
 --revision-name<span class="o">=</span>world
 </code></pre></div>
+<details class="question"><summary>Why did I pass in <code>revision-name</code>?</summary><p>Note that the name "hello-world" which you passed in as "revision-name," naming your <code>Revisions</code> will help you to more easily identify them, but don't worry, you'll learn more about <code>Revisions</code> later.</p>
+</details>
 </div>
 <input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><label for="__tabbed_1_2">YAML</label><div class="tabbed-content">
 <p><div class="highlight"><pre><span></span><code>apiVersion: serving.knative.dev/v1
@@ -3947,14 +3949,14 @@ spec:
 Once you've created your YAML file (named something like "hello.yaml"):
 <div class="highlight"><pre><span></span><code>kubectl apply -f hello.yaml
 </code></pre></div></p>
+<details class="question"><summary>Why did I pass in <code>revision-name</code>?</summary><p>Note that the name "hello-world" which you passed in under "metadata" in your YAML file. Naming your <code>Revisions</code> will help you to more easily identify them, but don't worry if this if a bit confusing now, you'll learn more about <code>Revisions</code> later.</p>
+</details>
 </div>
 </div>
-<p>After Knative has successfully created your service, you should see the following:
+<p><mark><strong>Expected output:</strong></mark>
 <div class="no-copy highlight"><pre><span></span><code>Service hello created to latest revision <span class="s1">&#39;hello-world&#39;</span> is available at URL:
 http://hello.default.127.0.0.1.nip.io
 </code></pre></div></p>
-<details class="question"><summary>Why did I pass in <code>revision-name</code>?</summary><p>Note that the name "world" which you passed in as "revision-name" (or under "metadata" in your YAML file) is being used to create the <code>Revision</code>'s name (<code>latest revision "hello-world"...</code>). This will help you to more easily identify this particular <code>Revision</code>, but don't worry, we'll talk more about <code>Revisions</code> later.</p>
-</details>
 <h2 id="run-your-knative-service">Run your Knative Service<a class="headerlink" href="#run-your-knative-service" title="Permanent link">&para;</a></h2>
 <div class="highlight"><pre><span></span><code>curl http://hello.default.127.0.0.1.nip.io
 </code></pre></div>
