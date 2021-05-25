@@ -3924,7 +3924,7 @@ This service will accept an environment variable, <code>TARGET</code>, and print
 --env <span class="nv">TARGET</span><span class="o">=</span>World <span class="se">\</span>
 --revision-name<span class="o">=</span>world
 </code></pre></div>
-<details class="question"><summary>Why did I pass in <code>revision-name</code>?</summary><p>Note the name "hello-world" which you passed in as "revision-name," naming your <code>Revisions</code> will help you to more easily identify them, but don't worry, you'll learn more about <code>Revisions</code> later.</p>
+<details class="question"><summary>Why did I pass in <code>revision-name</code>?</summary><p>Note the name "world" which you passed in as "revision-name," naming your <code>Revisions</code> will help you to more easily identify them, but don't worry, you'll learn more about <code>Revisions</code> later.</p>
 </details>
 </div>
 <input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><label for="__tabbed_1_2">YAML</label><div class="tabbed-content">
@@ -3935,7 +3935,7 @@ metadata:
 spec:
   template:
     metadata:
-      <span class="c1"># This is the name of our new &quot;Revision,&quot; see &quot;?&quot; box below for more details</span>
+      <span class="c1"># This is the name of our new &quot;Revision,&quot; it must follow the convention {service-name}-{revision-name}</span>
       name: hello-world
     spec:
       containers:
