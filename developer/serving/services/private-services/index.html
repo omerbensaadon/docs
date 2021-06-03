@@ -11,24 +11,24 @@
       
       
       
-        <link rel="canonical" href="https://knative.dev/docs/getting-started/install-serving-eventing/">
+        <link rel="canonical" href="https://knative.dev/docs/developer/serving/services/private-services/">
       
       
         
       
-      <link rel="icon" href="../../images/knative-sm.png">
+      <link rel="icon" href="../../../../images/knative-sm.png">
       <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-7.1.4+insiders-2.7.2">
     
     
       
-        <title>Install Knative - Knative</title>
+        <title>Configuring private Services - Knative</title>
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.48946aae.min.css">
+      <link rel="stylesheet" href="../../../../assets/stylesheets/main.48946aae.min.css">
       
         
-        <link rel="stylesheet" href="../../assets/stylesheets/palette.77b964be.min.css">
+        <link rel="stylesheet" href="../../../../assets/stylesheets/palette.77b964be.min.css">
         
       
       
@@ -44,7 +44,7 @@
     
     
     
-      <link rel="stylesheet" href="../../stylesheets/extra.css">
+      <link rel="stylesheet" href="../../../../stylesheets/extra.css">
     
     
       
@@ -61,7 +61,7 @@
     <body dir="ltr" data-md-color-scheme="" data-md-color-primary="none" data-md-color-accent="none">
   
     
-    <script>function __scope(t,e="../.."){return new URL(e,location).pathname+"."+t}function __get(t,e=localStorage,n){return JSON.parse(e.getItem(__scope(t,n)))}function __set(t,e,n=localStorage,o){try{n.setItem(__scope(t,o),JSON.stringify(e))}catch(t){}}</script>
+    <script>function __scope(t,e="../../../.."){return new URL(e,location).pathname+"."+t}function __get(t,e=localStorage,n){return JSON.parse(e.getItem(__scope(t,n)))}function __set(t,e,n=localStorage,o){try{n.setItem(__scope(t,o),JSON.stringify(e))}catch(t){}}</script>
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
@@ -69,7 +69,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#install-knative-components" class="md-skip">
+        <a href="#configuring-private-services" class="md-skip">
           Skip to content
         </a>
       
@@ -99,9 +99,9 @@
 
 <header class="md-header md-header--lifted" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../.." title="Knative" class="md-header__button md-logo" aria-label="Knative" data-md-component="logo">
+    <a href="../../../.." title="Knative" class="md-header__button md-logo" aria-label="Knative" data-md-component="logo">
       
-  <img src="../../images/logo/rgb/knative-logo-rgb.png" alt="logo">
+  <img src="../../../../images/logo/rgb/knative-logo-rgb.png" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -117,7 +117,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Install Knative
+              Configuring private Services
             
           </span>
         </div>
@@ -188,7 +188,7 @@
 
 
   <li class="md-tabs__item">
-    <a href="../.." class="md-tabs__link">
+    <a href="../../../.." class="md-tabs__link">
       Home
     </a>
   </li>
@@ -197,15 +197,13 @@
         
   
   
-    
-  
 
 
   
   
   
     <li class="md-tabs__item">
-      <a href="../" class="md-tabs__link md-tabs__link--active">
+      <a href="../../../../getting-started/" class="md-tabs__link">
         Getting Started
       </a>
     </li>
@@ -221,7 +219,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../admin/" class="md-tabs__link">
+      <a href="../../../../admin/" class="md-tabs__link">
         Administration guide
       </a>
     </li>
@@ -231,14 +229,16 @@
         
   
   
+    
+  
 
 
   
   
   
     <li class="md-tabs__item">
-      <a href="../../serving/" class="md-tabs__link">
-        Serving Component
+      <a href="../../../" class="md-tabs__link md-tabs__link--active">
+        Developer guide
       </a>
     </li>
   
@@ -253,8 +253,8 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../eventing/" class="md-tabs__link">
-        Eventing Component
+      <a href="../../../../serving/" class="md-tabs__link">
+        Knative Serving
       </a>
     </li>
   
@@ -269,7 +269,23 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../reference/api/serving/" class="md-tabs__link">
+      <a href="../../../../eventing/" class="md-tabs__link">
+        Knative Eventing
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../../reference/api/serving/" class="md-tabs__link">
         Reference
       </a>
     </li>
@@ -285,7 +301,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../client/" class="md-tabs__link">
+      <a href="../../../../client/" class="md-tabs__link">
         Client
       </a>
     </li>
@@ -298,7 +314,7 @@
 
 
   <li class="md-tabs__item">
-    <a href="../../../community/" class="md-tabs__link">
+    <a href="../../../../../community/" class="md-tabs__link">
       Join the Community ➠
     </a>
   </li>
@@ -310,7 +326,7 @@
 
 
   <li class="md-tabs__item">
-    <a href="../../../blog/" class="md-tabs__link">
+    <a href="../../../../../blog/" class="md-tabs__link">
       Read the Blog ➠
     </a>
   </li>
@@ -343,9 +359,9 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../.." title="Knative" class="md-nav__button md-logo" aria-label="Knative" data-md-component="logo">
+    <a href="../../../.." title="Knative" class="md-nav__button md-logo" aria-label="Knative" data-md-component="logo">
       
-  <img src="../../images/logo/rgb/knative-logo-rgb.png" alt="logo">
+  <img src="../../../../images/logo/rgb/knative-logo-rgb.png" alt="logo">
 
     </a>
     Knative
@@ -374,7 +390,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
+      <a href="../../../.." class="md-nav__link">
         Home
       </a>
     </li>
@@ -387,14 +403,12 @@
 
   
   
-    
-  
   
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" checked>
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
       
       
       
@@ -416,7 +430,7 @@
         
         
         <div class="md-nav__link md-nav__link--container ">
-          <a href="../">Getting Started</a>
+          <a href="../../../../getting-started/">Getting Started</a>
           <label for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
           </label>
@@ -436,58 +450,11 @@
               
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          Install Knative
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
-        Install Knative
+    <li class="md-nav__item">
+      <a href="../../../../getting-started/install-knative-quickstart/" class="md-nav__link">
+        Knative Quickstart
       </a>
-      
-        
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#install-knative-using-the-konk-script" class="md-nav__link">
-    Install Knative using the konk script
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#install-the-knative-cli" class="md-nav__link">
-    Install the Knative CLI
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -533,7 +500,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../first-service/" class="md-nav__link">
+      <a href="../../../../getting-started/first-service/" class="md-nav__link">
         First Knative Service
       </a>
     </li>
@@ -547,7 +514,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../first-autoscale/" class="md-nav__link">
+      <a href="../../../../getting-started/first-autoscale/" class="md-nav__link">
         Scaling to Zero
       </a>
     </li>
@@ -561,7 +528,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../first-traffic-split/" class="md-nav__link">
+      <a href="../../../../getting-started/first-traffic-split/" class="md-nav__link">
         Traffic Splitting
       </a>
     </li>
@@ -618,7 +585,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../getting-started-eventing/" class="md-nav__link">
+      <a href="../../../../getting-started/getting-started-eventing/" class="md-nav__link">
         Introducing Knative Eventing
       </a>
     </li>
@@ -632,7 +599,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../first-broker/" class="md-nav__link">
+      <a href="../../../../getting-started/first-broker/" class="md-nav__link">
         Sources, Brokers, Triggers, Sinks
       </a>
     </li>
@@ -646,7 +613,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../first-source/" class="md-nav__link">
+      <a href="../../../../getting-started/first-source/" class="md-nav__link">
         Introducing the CloudEvents Player
       </a>
     </li>
@@ -660,7 +627,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../first-trigger/" class="md-nav__link">
+      <a href="../../../../getting-started/first-trigger/" class="md-nav__link">
         Creating your first Trigger
       </a>
     </li>
@@ -681,7 +648,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../next-steps/" class="md-nav__link">
+      <a href="../../../../getting-started/next-steps/" class="md-nav__link">
         What's Next?
       </a>
     </li>
@@ -736,7 +703,7 @@
         
         
         <div class="md-nav__link md-nav__link--container ">
-          <a href="../../admin/">Administration guide</a>
+          <a href="../../../../admin/">Administration guide</a>
           <label for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
           </label>
@@ -785,7 +752,7 @@
         
         
         <div class="md-nav__link md-nav__link--container ">
-          <a href="../../admin/install/">Installing Knative</a>
+          <a href="../../../../admin/install/">Installing Knative</a>
           <label for="__nav_3_2">
             <span class="md-nav__icon md-icon"></span>
           </label>
@@ -807,7 +774,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../admin/install/prerequisites/" class="md-nav__link">
+      <a href="../../../../admin/install/prerequisites/" class="md-nav__link">
         Prerequisites
       </a>
     </li>
@@ -857,7 +824,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../admin/install/install-serving-with-yaml/" class="md-nav__link">
+      <a href="../../../../admin/install/install-serving-with-yaml/" class="md-nav__link">
         Install Serving with YAML
       </a>
     </li>
@@ -871,7 +838,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../admin/install/install-eventing-with-yaml/" class="md-nav__link">
+      <a href="../../../../admin/install/install-eventing-with-yaml/" class="md-nav__link">
         Install Eventing with YAML
       </a>
     </li>
@@ -885,7 +852,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../admin/install/install-extensions/" class="md-nav__link">
+      <a href="../../../../admin/install/install-extensions/" class="md-nav__link">
         Install optional extensions
       </a>
     </li>
@@ -899,7 +866,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../admin/install/installation-files/" class="md-nav__link">
+      <a href="../../../../admin/install/installation-files/" class="md-nav__link">
         Description Tables for YAML Files
       </a>
     </li>
@@ -954,7 +921,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../admin/install/knative-with-operators/" class="md-nav__link">
+      <a href="../../../../admin/install/knative-with-operators/" class="md-nav__link">
         Installing with the Operator
       </a>
     </li>
@@ -968,7 +935,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../admin/install/operator/configuring-eventing-cr/" class="md-nav__link">
+      <a href="../../../../admin/install/operator/configuring-eventing-cr/" class="md-nav__link">
         Configuring Knative Eventing CRDs
       </a>
     </li>
@@ -982,7 +949,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../admin/install/operator/configuring-serving-cr/" class="md-nav__link">
+      <a href="../../../../admin/install/operator/configuring-serving-cr/" class="md-nav__link">
         Configuring Knative Serving CRDs
       </a>
     </li>
@@ -1003,7 +970,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../admin/install/installing-istio/" class="md-nav__link">
+      <a href="../../../../admin/install/installing-istio/" class="md-nav__link">
         Installing Istio for Knative
       </a>
     </li>
@@ -1017,7 +984,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../admin/install/knative-offerings/" class="md-nav__link">
+      <a href="../../../../admin/install/knative-offerings/" class="md-nav__link">
         Using a Knative-based Offering
       </a>
     </li>
@@ -1038,7 +1005,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../check-install-version/" class="md-nav__link">
+      <a href="../../../../check-install-version/" class="md-nav__link">
         Checking your Knative version
       </a>
     </li>
@@ -1073,7 +1040,7 @@
         
         
         <div class="md-nav__link md-nav__link--container ">
-          <a href="../../admin/upgrade/">Upgrading your installation</a>
+          <a href="../../../../admin/upgrade/">Upgrading your installation</a>
           <label for="__nav_3_4">
             <span class="md-nav__icon md-icon"></span>
           </label>
@@ -1095,7 +1062,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../admin/upgrade/upgrade-installation-with-operator/" class="md-nav__link">
+      <a href="../../../../admin/upgrade/upgrade-installation-with-operator/" class="md-nav__link">
         Upgrading with the Knative Operator
       </a>
     </li>
@@ -1109,7 +1076,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../admin/upgrade/upgrade-installation/" class="md-nav__link">
+      <a href="../../../../admin/upgrade/upgrade-installation/" class="md-nav__link">
         Upgrading with kubectl
       </a>
     </li>
@@ -1136,7 +1103,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../admin/install/uninstall/" class="md-nav__link">
+      <a href="../../../../admin/install/uninstall/" class="md-nav__link">
         Uninstalling Knative
       </a>
     </li>
@@ -1156,12 +1123,14 @@
 
   
   
+    
+  
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" checked>
       
       
       
@@ -1172,29 +1141,21 @@
         
           
         
-          
-        
-          
-        
-          
-        
-          
-        
       
       
         
         
         <div class="md-nav__link md-nav__link--container ">
-          <a href="../../serving/">Serving Component</a>
+          <a href="../../../">Developer guide</a>
           <label for="__nav_4">
             <span class="md-nav__icon md-icon"></span>
           </label>
         </div>
       
-      <nav class="md-nav" aria-label="Serving Component" data-md-level="1">
+      <nav class="md-nav" aria-label="Developer guide" data-md-level="1">
         <label class="md-nav__title" for="__nav_4">
           <span class="md-nav__icon md-icon"></span>
-          Serving Component
+          Developer guide
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -1205,29 +1166,17 @@
               
   
   
+    
+  
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_2" type="checkbox" id="__nav_4_2" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_2" type="checkbox" id="__nav_4_2" checked>
       
       
       
-        
-          
-        
-          
-            
-          
-        
-          
-        
-          
-        
-          
-        
-          
         
           
         
@@ -1235,19 +1184,15 @@
         
       
       
-        
-        
-        <div class="md-nav__link md-nav__link--container ">
-          <a href="../../serving/deploying-from-private-registry/">Developer Topics</a>
-          <label for="__nav_4_2">
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        </div>
+        <label class="md-nav__link" for="__nav_4_2">
+          Knative Serving
+          <span class="md-nav__icon md-icon"></span>
+        </label>
       
-      <nav class="md-nav" aria-label="Developer Topics" data-md-level="2">
+      <nav class="md-nav" aria-label="Knative Serving" data-md-level="2">
         <label class="md-nav__title" for="__nav_4_2">
           <span class="md-nav__icon md-icon"></span>
-          Developer Topics
+          Knative Serving
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -1255,18 +1200,24 @@
               
   
   
+    
+  
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_2_1" type="checkbox" id="__nav_4_2_1" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_2_1" type="checkbox" id="__nav_4_2_1" checked>
       
       
       
         
           
             
+          
+        
+          
+        
           
         
           
@@ -1278,16 +1229,16 @@
         
         
         <div class="md-nav__link md-nav__link--container ">
-          <a href="../../serving/services/">Knative services</a>
+          <a href="../">Services</a>
           <label for="__nav_4_2_1">
             <span class="md-nav__icon md-icon"></span>
           </label>
         </div>
       
-      <nav class="md-nav" aria-label="Knative services" data-md-level="3">
+      <nav class="md-nav" aria-label="Services" data-md-level="3">
         <label class="md-nav__title" for="__nav_4_2_1">
           <span class="md-nav__icon md-icon"></span>
-          Knative services
+          Services
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -1300,8 +1251,89 @@
   
   
     <li class="md-nav__item">
-      <a href="../../serving/services/creating-services/" class="md-nav__link">
-        Creating a service
+      <a href="../creating-services/" class="md-nav__link">
+        Creating a Service
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Configuring private Services
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Configuring private Services
+      </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#using-the-cluster-local-label" class="md-nav__link">
+    Using the cluster-local label
+  </a>
+  
+    <nav class="md-nav" aria-label="Using the cluster-local label">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example" class="md-nav__link">
+    Example
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../custom-domains/" class="md-nav__link">
+        Configuring custom domains
       </a>
     </li>
   
@@ -1314,8 +1346,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../../serving/services/private-services/" class="md-nav__link">
-        Configuring private services
+      <a href="../configure-requests-limits-services/" class="md-nav__link">
+        Configure resource requests and limits
       </a>
     </li>
   
@@ -1330,6 +1362,165 @@
             
           
             
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_2_2" type="checkbox" id="__nav_4_2_2" >
+      
+      
+      
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_4_2_2">
+          Troubleshooting
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Troubleshooting" data-md-level="3">
+        <label class="md-nav__title" for="__nav_4_2_2">
+          <span class="md-nav__icon md-icon"></span>
+          Troubleshooting
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../troubleshooting/debugging-application-issues/" class="md-nav__link">
+        Debugging application issues
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" >
+      
+      
+      
+        
+          
+            
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--container ">
+          <a href="../../../../serving/">Knative Serving</a>
+          <label for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        </div>
+      
+      <nav class="md-nav" aria-label="Knative Serving" data-md-level="1">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          Knative Serving
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_2" type="checkbox" id="__nav_5_2" >
+      
+      
+      
+        
+          
+            
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--container ">
+          <a href="../../../../serving/deploying-from-private-registry/">Developer Topics</a>
+          <label for="__nav_5_2">
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        </div>
+      
+      <nav class="md-nav" aria-label="Developer Topics" data-md-level="2">
+        <label class="md-nav__title" for="__nav_5_2">
+          <span class="md-nav__icon md-icon"></span>
+          Developer Topics
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
             
           
             
@@ -1338,7 +1529,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../serving/tag-resolution/" class="md-nav__link">
+      <a href="../../../../serving/tag-resolution/" class="md-nav__link">
         Tag resolution
       </a>
     </li>
@@ -1352,7 +1543,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../serving/rolling-out-latest-revision/" class="md-nav__link">
+      <a href="../../../../serving/rolling-out-latest-revision/" class="md-nav__link">
         Gradually rolling out latest Revisions
       </a>
     </li>
@@ -1366,36 +1557,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../../serving/using-subroutes/" class="md-nav__link">
+      <a href="../../../../serving/using-subroutes/" class="md-nav__link">
         Creating and using Subroutes
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../serving/debugging-application-issues/" class="md-nav__link">
-        Debugging issues with your application
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../serving/creating-domain-mappings/" class="md-nav__link">
-        Setting up a custom domain per Service
       </a>
     </li>
   
@@ -1411,7 +1574,7 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_2_8" type="checkbox" id="__nav_4_2_8" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_2_5" type="checkbox" id="__nav_5_2_5" >
       
       
       
@@ -1427,14 +1590,14 @@
         
         
         <div class="md-nav__link md-nav__link--container ">
-          <a href="../../serving/load-balancing/">Load balancing</a>
-          <label for="__nav_4_2_8">
+          <a href="../../../../serving/load-balancing/">Load balancing</a>
+          <label for="__nav_5_2_5">
             <span class="md-nav__icon md-icon"></span>
           </label>
         </div>
       
       <nav class="md-nav" aria-label="Load balancing" data-md-level="3">
-        <label class="md-nav__title" for="__nav_4_2_8">
+        <label class="md-nav__title" for="__nav_5_2_5">
           <span class="md-nav__icon md-icon"></span>
           Load balancing
         </label>
@@ -1449,7 +1612,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../serving/load-balancing/target-burst-capacity/" class="md-nav__link">
+      <a href="../../../../serving/load-balancing/target-burst-capacity/" class="md-nav__link">
         Configuring target burst capacity
       </a>
     </li>
@@ -1480,7 +1643,7 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_3" type="checkbox" id="__nav_4_3" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_3" type="checkbox" id="__nav_5_3" >
       
       
       
@@ -1514,14 +1677,14 @@
         
         
         <div class="md-nav__link md-nav__link--container ">
-          <a href="../../serving/autoscaling/">Autoscaling</a>
-          <label for="__nav_4_3">
+          <a href="../../../../serving/autoscaling/">Autoscaling</a>
+          <label for="__nav_5_3">
             <span class="md-nav__icon md-icon"></span>
           </label>
         </div>
       
       <nav class="md-nav" aria-label="Autoscaling" data-md-level="2">
-        <label class="md-nav__title" for="__nav_4_3">
+        <label class="md-nav__title" for="__nav_5_3">
           <span class="md-nav__icon md-icon"></span>
           Autoscaling
         </label>
@@ -1536,7 +1699,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../serving/autoscaling/autoscaling-concepts/" class="md-nav__link">
+      <a href="../../../../serving/autoscaling/autoscaling-concepts/" class="md-nav__link">
         Autoscaling concepts
       </a>
     </li>
@@ -1550,7 +1713,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../serving/autoscaling/autoscaling-metrics/" class="md-nav__link">
+      <a href="../../../../serving/autoscaling/autoscaling-metrics/" class="md-nav__link">
         Metrics
       </a>
     </li>
@@ -1564,7 +1727,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../serving/autoscaling/autoscaling-targets/" class="md-nav__link">
+      <a href="../../../../serving/autoscaling/autoscaling-targets/" class="md-nav__link">
         Targets
       </a>
     </li>
@@ -1578,7 +1741,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../serving/autoscaling/scale-to-zero/" class="md-nav__link">
+      <a href="../../../../serving/autoscaling/scale-to-zero/" class="md-nav__link">
         Configuring scale to zero
       </a>
     </li>
@@ -1592,7 +1755,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../serving/autoscaling/concurrency/" class="md-nav__link">
+      <a href="../../../../serving/autoscaling/concurrency/" class="md-nav__link">
         Configuring concurrency
       </a>
     </li>
@@ -1606,7 +1769,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../serving/autoscaling/rps-target/" class="md-nav__link">
+      <a href="../../../../serving/autoscaling/rps-target/" class="md-nav__link">
         Configuring the requests per second (RPS) target
       </a>
     </li>
@@ -1620,7 +1783,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../serving/autoscaling/scale-bounds/" class="md-nav__link">
+      <a href="../../../../serving/autoscaling/scale-bounds/" class="md-nav__link">
         Configuring scale bounds
       </a>
     </li>
@@ -1634,7 +1797,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../serving/autoscaling/kpa-specific/" class="md-nav__link">
+      <a href="../../../../serving/autoscaling/kpa-specific/" class="md-nav__link">
         Additional autoscaling configuration for Knative Pod Autoscaler
       </a>
     </li>
@@ -1661,7 +1824,7 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_4" type="checkbox" id="__nav_4_4" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_4" type="checkbox" id="__nav_5_4" >
       
       
       
@@ -1694,13 +1857,13 @@
         
       
       
-        <label class="md-nav__link" for="__nav_4_4">
+        <label class="md-nav__link" for="__nav_5_4">
           Administrator Topics
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <nav class="md-nav" aria-label="Administrator Topics" data-md-level="2">
-        <label class="md-nav__title" for="__nav_4_4">
+        <label class="md-nav__title" for="__nav_5_4">
           <span class="md-nav__icon md-icon"></span>
           Administrator Topics
         </label>
@@ -1712,7 +1875,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../serving/services/deployment/" class="md-nav__link">
+      <a href="../../../../serving/services/deployment.md" class="md-nav__link">
         Deployment Configuration
       </a>
     </li>
@@ -1726,7 +1889,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../serving/knative-kubernetes-services/" class="md-nav__link">
+      <a href="../../../../serving/knative-kubernetes-services/" class="md-nav__link">
         Kubernetes services
       </a>
     </li>
@@ -1740,7 +1903,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../serving/accessing-traces/" class="md-nav__link">
+      <a href="../../../../serving/accessing-traces/" class="md-nav__link">
         Accessing request traces
       </a>
     </li>
@@ -1754,7 +1917,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../serving/istio-authorization/" class="md-nav__link">
+      <a href="../../../../serving/istio-authorization/" class="md-nav__link">
         Enabling requests to Knative services when additional authorization policies are enabled
       </a>
     </li>
@@ -1768,7 +1931,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../serving/webhook-customizations/" class="md-nav__link">
+      <a href="../../../../serving/webhook-customizations/" class="md-nav__link">
         Exclude namespaces from the Knative webhook
       </a>
     </li>
@@ -1782,7 +1945,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../serving/config-ha/" class="md-nav__link">
+      <a href="../../../../serving/config-ha/" class="md-nav__link">
         Configuring high-availability components
       </a>
     </li>
@@ -1796,7 +1959,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../serving/installing-cert-manager/" class="md-nav__link">
+      <a href="../../../../serving/installing-cert-manager/" class="md-nav__link">
         Installing cert-manager
       </a>
     </li>
@@ -1810,7 +1973,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../serving/using-a-tls-cert/" class="md-nav__link">
+      <a href="../../../../serving/using-a-tls-cert/" class="md-nav__link">
         Configuring HTTPS connections
       </a>
     </li>
@@ -1824,7 +1987,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../serving/using-auto-tls/" class="md-nav__link">
+      <a href="../../../../serving/using-auto-tls/" class="md-nav__link">
         Enabling auto TLS certs
       </a>
     </li>
@@ -1838,7 +2001,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../serving/metrics/" class="md-nav__link">
+      <a href="../../../../serving/metrics/" class="md-nav__link">
         Metrics API
       </a>
     </li>
@@ -1852,7 +2015,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../serving/feature-flags/" class="md-nav__link">
+      <a href="../../../../serving/feature-flags/" class="md-nav__link">
         Feature/Extension Flags
       </a>
     </li>
@@ -1866,7 +2029,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../serving/setting-up-custom-ingress-gateway/" class="md-nav__link">
+      <a href="../../../../serving/setting-up-custom-ingress-gateway/" class="md-nav__link">
         Configuring the ingress gateway
       </a>
     </li>
@@ -1880,7 +2043,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../serving/using-a-custom-domain/" class="md-nav__link">
+      <a href="../../../../serving/using-a-custom-domain/" class="md-nav__link">
         Setting up a custom domain
       </a>
     </li>
@@ -1904,7 +2067,7 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_5" type="checkbox" id="__nav_4_5" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_5" type="checkbox" id="__nav_5_5" >
       
       
       
@@ -1917,13 +2080,13 @@
         
       
       
-        <label class="md-nav__link" for="__nav_4_5">
+        <label class="md-nav__link" for="__nav_5_5">
           GKE Topics
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <nav class="md-nav" aria-label="GKE Topics" data-md-level="2">
-        <label class="md-nav__title" for="__nav_4_5">
+        <label class="md-nav__title" for="__nav_5_5">
           <span class="md-nav__icon md-icon"></span>
           GKE Topics
         </label>
@@ -1935,7 +2098,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../serving/gke-assigning-static-ip-address/" class="md-nav__link">
+      <a href="../../../../serving/gke-assigning-static-ip-address/" class="md-nav__link">
         Assigning static IPs - GKE
       </a>
     </li>
@@ -1949,7 +2112,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../serving/using-external-dns-on-gcp/" class="md-nav__link">
+      <a href="../../../../serving/using-external-dns-on-gcp/" class="md-nav__link">
         Using ExternalDNS on Google Cloud Platform to automate DNS setup
       </a>
     </li>
@@ -1963,7 +2126,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../serving/using-cert-manager-on-gcp/" class="md-nav__link">
+      <a href="../../../../serving/using-cert-manager-on-gcp/" class="md-nav__link">
         Configuring HTTPS with Cloud DNS
       </a>
     </li>
@@ -1987,7 +2150,7 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_6" type="checkbox" id="__nav_4_6" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_6" type="checkbox" id="__nav_5_6" >
       
       
       
@@ -2045,14 +2208,14 @@
         
         
         <div class="md-nav__link md-nav__link--container ">
-          <a href="../../serving/samples/">Code samples</a>
-          <label for="__nav_4_6">
+          <a href="../../../../serving/samples/">Code samples</a>
+          <label for="__nav_5_6">
             <span class="md-nav__icon md-icon"></span>
           </label>
         </div>
       
       <nav class="md-nav" aria-label="Code samples" data-md-level="2">
-        <label class="md-nav__title" for="__nav_4_6">
+        <label class="md-nav__title" for="__nav_5_6">
           <span class="md-nav__icon md-icon"></span>
           Code samples
         </label>
@@ -2067,7 +2230,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../serving/samples/blue-green-deployment/" class="md-nav__link">
+      <a href="../../../../serving/samples/blue-green-deployment/" class="md-nav__link">
         Routing and managing traffic
       </a>
     </li>
@@ -2084,7 +2247,7 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_6_3" type="checkbox" id="__nav_4_6_3" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_6_3" type="checkbox" id="__nav_5_6_3" >
       
       
       
@@ -2122,14 +2285,14 @@
         
         
         <div class="md-nav__link md-nav__link--container ">
-          <a href="../../serving/samples/cloudevents/">Cloud Events apps</a>
-          <label for="__nav_4_6_3">
+          <a href="../../../../serving/samples/cloudevents/">Cloud Events apps</a>
+          <label for="__nav_5_6_3">
             <span class="md-nav__icon md-icon"></span>
           </label>
         </div>
       
       <nav class="md-nav" aria-label="Cloud Events apps" data-md-level="3">
-        <label class="md-nav__title" for="__nav_4_6_3">
+        <label class="md-nav__title" for="__nav_5_6_3">
           <span class="md-nav__icon md-icon"></span>
           Cloud Events apps
         </label>
@@ -2178,7 +2341,7 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_6_6" type="checkbox" id="__nav_4_6_6" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_6_6" type="checkbox" id="__nav_5_6_6" >
       
       
       
@@ -2236,14 +2399,14 @@
         
         
         <div class="md-nav__link md-nav__link--container ">
-          <a href="../../serving/samples/hello-world/">Hello world apps</a>
-          <label for="__nav_4_6_6">
+          <a href="../../../../serving/samples/hello-world/">Hello world apps</a>
+          <label for="__nav_5_6_6">
             <span class="md-nav__icon md-icon"></span>
           </label>
         </div>
       
       <nav class="md-nav" aria-label="Hello world apps" data-md-level="3">
-        <label class="md-nav__title" for="__nav_4_6_6">
+        <label class="md-nav__title" for="__nav_5_6_6">
           <span class="md-nav__icon md-icon"></span>
           Hello world apps
         </label>
@@ -2316,7 +2479,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../_index/" class="md-nav__link">
+      <a href="../../../../_index/" class="md-nav__link">
         Welcome to Knative
       </a>
     </li>
@@ -2330,7 +2493,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../knative-offerings/" class="md-nav__link">
+      <a href="../../../../knative-offerings/" class="md-nav__link">
         Knative Offerings
       </a>
     </li>
@@ -2344,7 +2507,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../samples/" class="md-nav__link">
+      <a href="../../../../samples/" class="md-nav__link">
         Knative code samples
       </a>
     </li>
@@ -2376,7 +2539,7 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" type="checkbox" id="__nav_6" >
       
       
       
@@ -2409,6 +2572,8 @@
         
           
             
+          
+        
           
         
           
@@ -2422,16 +2587,16 @@
         
         
         <div class="md-nav__link md-nav__link--container ">
-          <a href="../../eventing/">Eventing Component</a>
-          <label for="__nav_5">
+          <a href="../../../../eventing/">Knative Eventing</a>
+          <label for="__nav_6">
             <span class="md-nav__icon md-icon"></span>
           </label>
         </div>
       
-      <nav class="md-nav" aria-label="Eventing Component" data-md-level="1">
-        <label class="md-nav__title" for="__nav_5">
+      <nav class="md-nav" aria-label="Knative Eventing" data-md-level="1">
+        <label class="md-nav__title" for="__nav_6">
           <span class="md-nav__icon md-icon"></span>
-          Eventing Component
+          Knative Eventing
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -2444,7 +2609,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../eventing/getting-started/" class="md-nav__link">
+      <a href="../../../../eventing/getting-started/" class="md-nav__link">
         Getting started
       </a>
     </li>
@@ -2461,7 +2626,7 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_3" type="checkbox" id="__nav_5_3" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6_3" type="checkbox" id="__nav_6_3" >
       
       
       
@@ -2489,14 +2654,14 @@
         
         
         <div class="md-nav__link md-nav__link--container ">
-          <a href="../../eventing/sources/">Event sources</a>
-          <label for="__nav_5_3">
+          <a href="../../../../eventing/sources/">Event sources</a>
+          <label for="__nav_6_3">
             <span class="md-nav__icon md-icon"></span>
           </label>
         </div>
       
       <nav class="md-nav" aria-label="Event sources" data-md-level="2">
-        <label class="md-nav__title" for="__nav_5_3">
+        <label class="md-nav__title" for="__nav_6_3">
           <span class="md-nav__icon md-icon"></span>
           Event sources
         </label>
@@ -2514,7 +2679,7 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_3_2" type="checkbox" id="__nav_5_3_2" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6_3_2" type="checkbox" id="__nav_6_3_2" >
       
       
       
@@ -2532,14 +2697,14 @@
         
         
         <div class="md-nav__link md-nav__link--container ">
-          <a href="../../eventing/sources/apiserversource/">API server source</a>
-          <label for="__nav_5_3_2">
+          <a href="../../../../eventing/sources/apiserversource/">API server source</a>
+          <label for="__nav_6_3_2">
             <span class="md-nav__icon md-icon"></span>
           </label>
         </div>
       
       <nav class="md-nav" aria-label="API server source" data-md-level="3">
-        <label class="md-nav__title" for="__nav_5_3_2">
+        <label class="md-nav__title" for="__nav_6_3_2">
           <span class="md-nav__icon md-icon"></span>
           API server source
         </label>
@@ -2564,7 +2729,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../eventing/sources/containersource/" class="md-nav__link">
+      <a href="../../../../eventing/sources/containersource/" class="md-nav__link">
         ContainerSource
       </a>
     </li>
@@ -2580,10 +2745,74 @@
   
   
   
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6_3_5" type="checkbox" id="__nav_6_3_5" >
+      
+      
+      
+        
+          
+            
+          
+        
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--container ">
+          <a href="../../../../eventing/sources/sinkbinding/">SinkBinding</a>
+          <label for="__nav_6_3_5">
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        </div>
+      
+      <nav class="md-nav" aria-label="SinkBinding" data-md-level="3">
+        <label class="md-nav__title" for="__nav_6_3_5">
+          <span class="md-nav__icon md-icon"></span>
+          SinkBinding
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+            
+          
+            
+              
+  
+  
+  
     <li class="md-nav__item">
-      <a href="../../eventing/sources/sinkbinding/" class="md-nav__link">
-        Sink binding
+      <a href="../../../../eventing/sources/sinkbinding/getting-started/" class="md-nav__link">
+        Create a SinkBinding object
       </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../eventing/sources/sinkbinding/reference/" class="md-nav__link">
+        SinkBinding reference
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
     </li>
   
 
@@ -2608,7 +2837,7 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_4" type="checkbox" id="__nav_5_4" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6_4" type="checkbox" id="__nav_6_4" >
       
       
       
@@ -2628,14 +2857,14 @@
         
         
         <div class="md-nav__link md-nav__link--container ">
-          <a href="../../eventing/sources/creating-event-sources/">Creating an event source</a>
-          <label for="__nav_5_4">
+          <a href="../../../../eventing/sources/creating-event-sources/">Creating an event source</a>
+          <label for="__nav_6_4">
             <span class="md-nav__icon md-icon"></span>
           </label>
         </div>
       
       <nav class="md-nav" aria-label="Creating an event source" data-md-level="2">
-        <label class="md-nav__title" for="__nav_5_4">
+        <label class="md-nav__title" for="__nav_6_4">
           <span class="md-nav__icon md-icon"></span>
           Creating an event source
         </label>
@@ -2656,7 +2885,7 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_4_3" type="checkbox" id="__nav_5_4_3" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6_4_3" type="checkbox" id="__nav_6_4_3" >
       
       
       
@@ -2684,14 +2913,14 @@
         
         
         <div class="md-nav__link md-nav__link--container ">
-          <a href="../../eventing/sources/creating-event-sources/writing-event-source/">Using the sample event source</a>
-          <label for="__nav_5_4_3">
+          <a href="../../../../eventing/sources/creating-event-sources/writing-event-source/">Using the sample event source</a>
+          <label for="__nav_6_4_3">
             <span class="md-nav__icon md-icon"></span>
           </label>
         </div>
       
       <nav class="md-nav" aria-label="Using the sample event source" data-md-level="3">
-        <label class="md-nav__title" for="__nav_5_4_3">
+        <label class="md-nav__title" for="__nav_6_4_3">
           <span class="md-nav__icon md-icon"></span>
           Using the sample event source
         </label>
@@ -2706,7 +2935,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../eventing/sources/creating-event-sources/writing-event-source/01-theory/" class="md-nav__link">
+      <a href="../../../../eventing/sources/creating-event-sources/writing-event-source/01-theory/" class="md-nav__link">
         Design of an Event Source
       </a>
     </li>
@@ -2720,7 +2949,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../eventing/sources/creating-event-sources/writing-event-source/02-lifecycle-and-types/" class="md-nav__link">
+      <a href="../../../../eventing/sources/creating-event-sources/writing-event-source/02-lifecycle-and-types/" class="md-nav__link">
         Lifecycle and Types
       </a>
     </li>
@@ -2734,7 +2963,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../eventing/sources/creating-event-sources/writing-event-source/03-controller/" class="md-nav__link">
+      <a href="../../../../eventing/sources/creating-event-sources/writing-event-source/03-controller/" class="md-nav__link">
         Controller Implemetation
       </a>
     </li>
@@ -2748,7 +2977,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../eventing/sources/creating-event-sources/writing-event-source/04-reconciler/" class="md-nav__link">
+      <a href="../../../../eventing/sources/creating-event-sources/writing-event-source/04-reconciler/" class="md-nav__link">
         Reconciler Implementation
       </a>
     </li>
@@ -2762,7 +2991,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../eventing/sources/creating-event-sources/writing-event-source/05-receive-adapter/" class="md-nav__link">
+      <a href="../../../../eventing/sources/creating-event-sources/writing-event-source/05-receive-adapter/" class="md-nav__link">
         Receive Adapter Implementation
       </a>
     </li>
@@ -2776,7 +3005,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../eventing/sources/creating-event-sources/writing-event-source/06-yaml/" class="md-nav__link">
+      <a href="../../../../eventing/sources/creating-event-sources/writing-event-source/06-yaml/" class="md-nav__link">
         Publishing to your cluster
       </a>
     </li>
@@ -2790,7 +3019,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../eventing/sources/creating-event-sources/writing-event-source/07-knative-sandbox/" class="md-nav__link">
+      <a href="../../../../eventing/sources/creating-event-sources/writing-event-source/07-knative-sandbox/" class="md-nav__link">
         Moving to knative-sandbox
       </a>
     </li>
@@ -2818,7 +3047,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../eventing/event-registry/" class="md-nav__link">
+      <a href="../../../../eventing/event-registry/" class="md-nav__link">
         Event registry
       </a>
     </li>
@@ -2835,7 +3064,7 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_6" type="checkbox" id="__nav_5_6" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6_6" type="checkbox" id="__nav_6_6" >
       
       
       
@@ -2853,14 +3082,14 @@
         
         
         <div class="md-nav__link md-nav__link--container ">
-          <a href="../../eventing/flows/">Flows</a>
-          <label for="__nav_5_6">
+          <a href="../../../../eventing/flows/">Flows</a>
+          <label for="__nav_6_6">
             <span class="md-nav__icon md-icon"></span>
           </label>
         </div>
       
       <nav class="md-nav" aria-label="Flows" data-md-level="2">
-        <label class="md-nav__title" for="__nav_5_6">
+        <label class="md-nav__title" for="__nav_6_6">
           <span class="md-nav__icon md-icon"></span>
           Flows
         </label>
@@ -2875,7 +3104,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../eventing/flows/parallel/" class="md-nav__link">
+      <a href="../../../../eventing/flows/parallel/" class="md-nav__link">
         Parallel
       </a>
     </li>
@@ -2892,7 +3121,7 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_6_3" type="checkbox" id="__nav_5_6_3" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6_6_3" type="checkbox" id="__nav_6_6_3" >
       
       
       
@@ -2922,14 +3151,14 @@
         
         
         <div class="md-nav__link md-nav__link--container ">
-          <a href="../../eventing/flows/sequence/">Sequence</a>
-          <label for="__nav_5_6_3">
+          <a href="../../../../eventing/flows/sequence/">Sequence</a>
+          <label for="__nav_6_6_3">
             <span class="md-nav__icon md-icon"></span>
           </label>
         </div>
       
       <nav class="md-nav" aria-label="Sequence" data-md-level="3">
-        <label class="md-nav__title" for="__nav_5_6_3">
+        <label class="md-nav__title" for="__nav_6_6_3">
           <span class="md-nav__icon md-icon"></span>
           Sequence
         </label>
@@ -2973,7 +3202,7 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_7" type="checkbox" id="__nav_5_7" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6_7" type="checkbox" id="__nav_6_7" >
       
       
       
@@ -2995,14 +3224,14 @@
         
         
         <div class="md-nav__link md-nav__link--container ">
-          <a href="../../eventing/channels/">Channels</a>
-          <label for="__nav_5_7">
+          <a href="../../../../eventing/channels/">Channels</a>
+          <label for="__nav_6_7">
             <span class="md-nav__icon md-icon"></span>
           </label>
         </div>
       
       <nav class="md-nav" aria-label="Channels" data-md-level="2">
-        <label class="md-nav__title" for="__nav_5_7">
+        <label class="md-nav__title" for="__nav_6_7">
           <span class="md-nav__icon md-icon"></span>
           Channels
         </label>
@@ -3017,7 +3246,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../eventing/channels/channel-types-defaults/" class="md-nav__link">
+      <a href="../../../../eventing/channels/channel-types-defaults/" class="md-nav__link">
         Channel types and defaults
       </a>
     </li>
@@ -3031,7 +3260,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../eventing/channels/create-default-channel/" class="md-nav__link">
+      <a href="../../../../eventing/channels/create-default-channel/" class="md-nav__link">
         Creating a channel using cluster or namespace defaults
       </a>
     </li>
@@ -3045,7 +3274,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../eventing/channels/channels-crds/" class="md-nav__link">
+      <a href="../../../../eventing/channels/channels-crds/" class="md-nav__link">
         Available Channels
       </a>
     </li>
@@ -3059,7 +3288,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../eventing/channels/subscriptions/" class="md-nav__link">
+      <a href="../../../../eventing/channels/subscriptions/" class="md-nav__link">
         Subscriptions
       </a>
     </li>
@@ -3083,7 +3312,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../eventing/event-delivery/" class="md-nav__link">
+      <a href="../../../../eventing/event-delivery/" class="md-nav__link">
         Event delivery
       </a>
     </li>
@@ -3100,7 +3329,7 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_10" type="checkbox" id="__nav_5_10" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6_10" type="checkbox" id="__nav_6_10" >
       
       
       
@@ -3130,14 +3359,14 @@
         
         
         <div class="md-nav__link md-nav__link--container ">
-          <a href="../../eventing/broker/">Brokers</a>
-          <label for="__nav_5_10">
+          <a href="../../../../eventing/broker/">Brokers</a>
+          <label for="__nav_6_10">
             <span class="md-nav__icon md-icon"></span>
           </label>
         </div>
       
       <nav class="md-nav" aria-label="Brokers" data-md-level="2">
-        <label class="md-nav__title" for="__nav_5_10">
+        <label class="md-nav__title" for="__nav_6_10">
           <span class="md-nav__icon md-icon"></span>
           Brokers
         </label>
@@ -3152,7 +3381,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../eventing/broker/create-mtbroker/" class="md-nav__link">
+      <a href="../../../../eventing/broker/create-mtbroker/" class="md-nav__link">
         Creating a broker
       </a>
     </li>
@@ -3169,7 +3398,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../eventing/broker/broker-event-delivery/" class="md-nav__link">
+      <a href="../../../../eventing/broker/broker-event-delivery/" class="md-nav__link">
         Event delivery
       </a>
     </li>
@@ -3183,7 +3412,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../eventing/broker/example-mtbroker/" class="md-nav__link">
+      <a href="../../../../eventing/broker/example-mtbroker/" class="md-nav__link">
         Broker configuration example
       </a>
     </li>
@@ -3203,7 +3432,7 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_10_7" type="checkbox" id="__nav_5_10_7" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6_10_7" type="checkbox" id="__nav_6_10_7" >
       
       
       
@@ -3219,14 +3448,14 @@
         
         
         <div class="md-nav__link md-nav__link--container ">
-          <a href="../../eventing/broker/kafka-broker/">Apache Kafka Broker</a>
-          <label for="__nav_5_10_7">
+          <a href="../../../../eventing/broker/kafka-broker/">Apache Kafka Broker</a>
+          <label for="__nav_6_10_7">
             <span class="md-nav__icon md-icon"></span>
           </label>
         </div>
       
       <nav class="md-nav" aria-label="Apache Kafka Broker" data-md-level="3">
-        <label class="md-nav__title" for="__nav_5_10_7">
+        <label class="md-nav__title" for="__nav_6_10_7">
           <span class="md-nav__icon md-icon"></span>
           Apache Kafka Broker
         </label>
@@ -3241,7 +3470,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../eventing/broker/kafka-broker/kafka-configmap/" class="md-nav__link">
+      <a href="../../../../eventing/broker/kafka-broker/kafka-configmap/" class="md-nav__link">
         Kafka Channel ConfigMap
       </a>
     </li>
@@ -3272,7 +3501,7 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_11" type="checkbox" id="__nav_5_11" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6_11" type="checkbox" id="__nav_6_11" >
       
       
       
@@ -3288,14 +3517,14 @@
         
         
         <div class="md-nav__link md-nav__link--container ">
-          <a href="../../eventing/sink/">Sink</a>
-          <label for="__nav_5_11">
+          <a href="../../../../eventing/sink/">Sink</a>
+          <label for="__nav_6_11">
             <span class="md-nav__icon md-icon"></span>
           </label>
         </div>
       
       <nav class="md-nav" aria-label="Sink" data-md-level="2">
-        <label class="md-nav__title" for="__nav_5_11">
+        <label class="md-nav__title" for="__nav_6_11">
           <span class="md-nav__icon md-icon"></span>
           Sink
         </label>
@@ -3310,7 +3539,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../eventing/sink/kafka-sink/" class="md-nav__link">
+      <a href="../../../../eventing/sink/kafka-sink/" class="md-nav__link">
         Apache Kafka Sink
       </a>
     </li>
@@ -3334,7 +3563,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../eventing/accessing-traces/" class="md-nav__link">
+      <a href="../../../../eventing/accessing-traces/" class="md-nav__link">
         Accessing CloudEvent traces
       </a>
     </li>
@@ -3348,8 +3577,22 @@
   
   
     <li class="md-nav__item">
-      <a href="../../eventing/metrics/" class="md-nav__link">
+      <a href="../../../../eventing/metrics/" class="md-nav__link">
         Metrics API
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../eventing/experimental-features/" class="md-nav__link">
+        Experimental Features
       </a>
     </li>
   
@@ -3365,7 +3608,7 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_15" type="checkbox" id="__nav_5_15" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6_16" type="checkbox" id="__nav_6_16" >
       
       
       
@@ -3417,14 +3660,14 @@
         
         
         <div class="md-nav__link md-nav__link--container ">
-          <a href="../../eventing/samples/">Code samples</a>
-          <label for="__nav_5_15">
+          <a href="../../../../eventing/samples/">Code samples</a>
+          <label for="__nav_6_16">
             <span class="md-nav__icon md-icon"></span>
           </label>
         </div>
       
       <nav class="md-nav" aria-label="Code samples" data-md-level="2">
-        <label class="md-nav__title" for="__nav_5_15">
+        <label class="md-nav__title" for="__nav_6_16">
           <span class="md-nav__icon md-icon"></span>
           Code samples
         </label>
@@ -3445,7 +3688,7 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_15_3" type="checkbox" id="__nav_5_15_3" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6_16_3" type="checkbox" id="__nav_6_16_3" >
       
       
       
@@ -3467,14 +3710,14 @@
         
         
         <div class="md-nav__link md-nav__link--container ">
-          <a href="../../eventing/samples/helloworld/">Hello World</a>
-          <label for="__nav_5_15_3">
+          <a href="../../../../eventing/samples/helloworld/">Hello World</a>
+          <label for="__nav_6_16_3">
             <span class="md-nav__icon md-icon"></span>
           </label>
         </div>
       
       <nav class="md-nav" aria-label="Hello World" data-md-level="3">
-        <label class="md-nav__title" for="__nav_5_15_3">
+        <label class="md-nav__title" for="__nav_6_16_3">
           <span class="md-nav__icon md-icon"></span>
           Hello World
         </label>
@@ -3505,7 +3748,7 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_15_4" type="checkbox" id="__nav_5_15_4" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6_16_4" type="checkbox" id="__nav_6_16_4" >
       
       
       
@@ -3531,14 +3774,14 @@
         
         
         <div class="md-nav__link md-nav__link--container ">
-          <a href="../../eventing/samples/kafka/">Apache Kafka</a>
-          <label for="__nav_5_15_4">
+          <a href="../../../../eventing/samples/kafka/">Apache Kafka</a>
+          <label for="__nav_6_16_4">
             <span class="md-nav__icon md-icon"></span>
           </label>
         </div>
       
       <nav class="md-nav" aria-label="Apache Kafka" data-md-level="3">
-        <label class="md-nav__title" for="__nav_5_15_4">
+        <label class="md-nav__title" for="__nav_6_16_4">
           <span class="md-nav__icon md-icon"></span>
           Apache Kafka
         </label>
@@ -3572,7 +3815,7 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_15_5" type="checkbox" id="__nav_5_15_5" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6_16_5" type="checkbox" id="__nav_6_16_5" >
       
       
       
@@ -3594,14 +3837,14 @@
         
         
         <div class="md-nav__link md-nav__link--container ">
-          <a href="../../eventing/samples/parallel/">Parallel</a>
-          <label for="__nav_5_15_5">
+          <a href="../../../../eventing/samples/parallel/">Parallel</a>
+          <label for="__nav_6_16_5">
             <span class="md-nav__icon md-icon"></span>
           </label>
         </div>
       
       <nav class="md-nav" aria-label="Parallel" data-md-level="3">
-        <label class="md-nav__title" for="__nav_5_15_5">
+        <label class="md-nav__title" for="__nav_6_16_5">
           <span class="md-nav__icon md-icon"></span>
           Parallel
         </label>
@@ -3668,7 +3911,7 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" type="checkbox" id="__nav_6" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7" type="checkbox" id="__nav_7" >
       
       
       
@@ -3679,13 +3922,13 @@
         
       
       
-        <label class="md-nav__link" for="__nav_6">
+        <label class="md-nav__link" for="__nav_7">
           Reference
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <nav class="md-nav" aria-label="Reference" data-md-level="1">
-        <label class="md-nav__title" for="__nav_6">
+        <label class="md-nav__title" for="__nav_7">
           <span class="md-nav__icon md-icon"></span>
           Reference
         </label>
@@ -3697,7 +3940,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../reference/api/serving/" class="md-nav__link">
+      <a href="../../../../reference/api/serving/" class="md-nav__link">
         Serving
       </a>
     </li>
@@ -3711,7 +3954,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../reference/api/eventing/eventing/" class="md-nav__link">
+      <a href="../../../../reference/api/eventing/eventing/" class="md-nav__link">
         Eventing
       </a>
     </li>
@@ -3736,7 +3979,7 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7" type="checkbox" id="__nav_7" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_8" type="checkbox" id="__nav_8" >
       
       
       
@@ -3756,14 +3999,14 @@
         
         
         <div class="md-nav__link md-nav__link--container ">
-          <a href="../../client/">Client</a>
-          <label for="__nav_7">
+          <a href="../../../../client/">Client</a>
+          <label for="__nav_8">
             <span class="md-nav__icon md-icon"></span>
           </label>
         </div>
       
       <nav class="md-nav" aria-label="Client" data-md-level="1">
-        <label class="md-nav__title" for="__nav_7">
+        <label class="md-nav__title" for="__nav_8">
           <span class="md-nav__icon md-icon"></span>
           Client
         </label>
@@ -3778,7 +4021,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../client/install-kn/" class="md-nav__link">
+      <a href="../../../../client/install-kn/" class="md-nav__link">
         Installing kn
       </a>
     </li>
@@ -3792,7 +4035,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../client/configure-kn/" class="md-nav__link">
+      <a href="../../../../client/configure-kn/" class="md-nav__link">
         Customizing kn
       </a>
     </li>
@@ -3806,7 +4049,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../client/kn-plugins/" class="md-nav__link">
+      <a href="../../../../client/kn-plugins/" class="md-nav__link">
         kn plugins
       </a>
     </li>
@@ -3828,7 +4071,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../community/" class="md-nav__link">
+      <a href="../../../../../community/" class="md-nav__link">
         Join the Community ➠
       </a>
     </li>
@@ -3843,7 +4086,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../blog/" class="md-nav__link">
+      <a href="../../../../../blog/" class="md-nav__link">
         Read the Blog ➠
       </a>
     </li>
@@ -3876,16 +4119,22 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#install-knative-using-the-konk-script" class="md-nav__link">
-    Install Knative using the konk script
+  <a href="#using-the-cluster-local-label" class="md-nav__link">
+    Using the cluster-local label
+  </a>
+  
+    <nav class="md-nav" aria-label="Using the cluster-local label">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example" class="md-nav__link">
+    Example
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#install-the-knative-cli" class="md-nav__link">
-    Install the Knative CLI
-  </a>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -3901,82 +4150,58 @@
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/knative/docs/edit/main/docs/getting-started/install-serving-eventing.md" title="Edit this page" class="md-content__button md-icon">
+                  <a href="https://github.com/knative/docs/edit/main/docs/developer/serving/services/private-services.md" title="Edit this page" class="md-content__button md-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
                   </a>
                 
                 
-                <h1 id="install-knative-components">Install Knative components<a class="headerlink" href="#install-knative-components" title="Permanent link">&para;</a></h1>
-<h2 id="install-knative-using-the-konk-script">Install Knative using the konk script<a class="headerlink" href="#install-knative-using-the-konk-script" title="Permanent link">&para;</a></h2>
-<p>You can get started with a local deployment of Knative by using <em>Knative on Kind</em> (<code>konk</code>):</p>
-<div class="admonition todo">
-<p class="admonition-title">Install Knative and Kubernetes on a local Docker Daemon using <code>konk</code></p>
-<div class="highlight"><pre><span></span><code>curl -sL install.konk.dev | bash
-</code></pre></div>
-</div>
-<p><code>konk</code> is a shell script that completes the following functions:</p>
+                <h1 id="configuring-private-services">Configuring private Services<a class="headerlink" href="#configuring-private-services" title="Permanent link">&para;</a></h1>
+<p>By default, Services deployed through Knative are published to an external IP
+address, making them public Services on a public IP address and with a public URL.</p>
+<p>Knative provides three ways to enable private services which are only available
+inside the cluster:</p>
 <ol>
-<li>Checks if you have <code>kind</code> installed, and creates a cluster called <code>knative</code>.</li>
-<li>Installs Knative Serving with Kourier as the default networking layer, and nip.io as the DNS.</li>
-<li>Installs Knative Eventing and creates a default broker and channel implementation.</li>
+<li>To make all Knative Services private, change the default domain to
+   <code>svc.cluster.local</code> by <a href="../../../../serving/using-a-custom-domain">editing the <code>config-domain</code> ConfigMap</a>. This changes all Services deployed through Knative to only be published to the cluster.</li>
+<li>To make an individual Service private, the Service or Route can be
+   labelled with <code>networking.knative.dev/visibility=cluster-local</code> so that it is not published to the external gateway.</li>
+<li>Use <a href="../../../../serving/creating-domain-mappings">custom domain mappings</a>.</li>
 </ol>
-<h2 id="install-the-knative-cli">Install the Knative CLI<a class="headerlink" href="#install-the-knative-cli" title="Permanent link">&para;</a></h2>
-<p>The Knative CLI (<code>kn</code>) provides a quick and easy interface for creating Knative resources such as Knative services and event sources, without the need to create or modify YAML files directly. <code>kn</code> also simplifies completion of otherwise complex procedures such as autoscaling and traffic splitting.</p>
-<div class="admonition todo">
-<p class="admonition-title">Installing the <code>kn</code> CLI</p>
-<div class="tabbed-set" data-tabs="1:4"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><label for="__tabbed_1_1">Using Homebrew</label><div class="tabbed-content">
-<p>For macOS, you can install <code>kn</code> by using <a href="https://github.com/knative/homebrew-client" target="_blank">Homebrew</a>.</p>
-<div class="highlight"><pre><span></span><code>brew install knative/client/kn
-</code></pre></div>
-</div>
-<input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><label for="__tabbed_1_2">Using a binary</label><div class="tabbed-content">
-<p>You can install <code>kn</code> by downloading the executable binary for your system and placing it in the system path.</p>
-<p>A link to the latest stable binary release is available on the <a href="https://github.com/knative/client/releases" target="_blank"><code>kn</code> release page</a>.</p>
-</div>
-<input id="__tabbed_1_3" name="__tabbed_1" type="radio" /><label for="__tabbed_1_3">Using Go</label><div class="tabbed-content">
-<ol>
-<li>
-<p>Check out the <code>kn</code> client repository:</p>
-<div class="highlight"><pre><span></span><code>git clone https://github.com/knative/client.git
-cd client/
-</code></pre></div>
-</li>
-<li>
-<p>Build an executable binary:</p>
-<div class="highlight"><pre><span></span><code>hack/build.sh -f
-</code></pre></div>
-</li>
-<li>
-<p>Move <code>kn</code> into your system path, and verify that <code>kn</code> commands are working properly. For example:</p>
-<div class="highlight"><pre><span></span><code>kn version
-</code></pre></div>
-</li>
-</ol>
-</div>
-<input id="__tabbed_1_4" name="__tabbed_1" type="radio" /><label for="__tabbed_1_4">Using a container image</label><div class="tabbed-content">
-<div class="admonition warning">
-<p class="admonition-title">Warning</p>
-<p>Nightly container images include features which may not be included in the latest Knative release and are not considered to be stable.</p>
-</div>
-<p>Links to images are available here:</p>
+<h2 id="using-the-cluster-local-label">Using the cluster-local label<a class="headerlink" href="#using-the-cluster-local-label" title="Permanent link">&para;</a></h2>
+<p>To configure a Knative Service so that it is only available on the cluster-local network, and not on the public internet, you can apply the
+<code>networking.knative.dev/visibility=cluster-local</code> label to a Knative Service, a route or a Kubernetes Service object.</p>
 <ul>
-<li><a href="https://gcr.io/knative-releases/knative.dev/client/cmd/kn" target="_blank">Latest release</a></li>
-<li><a href="https://gcr.io/knative-nightly/knative.dev/client/cmd/kn" target="_blank">Nightly container image</a></li>
-</ul>
-<p>You can run <code>kn</code> from a container image. For example:</p>
-<div class="highlight"><pre><span></span><code>docker run --rm -v &quot;$HOME/.kube/config:/root/.kube/config&quot; gcr.io/knative-releases/knative.dev/client/cmd/kn:latest service list
+<li>
+<p>To label a Knative Service:</p>
+<div class="highlight"><pre><span></span><code>kubectl label kservice <span class="si">${</span><span class="nv">KSVC_NAME</span><span class="si">}</span> networking.knative.dev/visibility<span class="o">=</span>cluster-local
 </code></pre></div>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>Running <code>kn</code> from a container image does not place the binary on a permanent path. This procedure must be repeated each time you want to use <code>kn</code>.</p>
-</div>
-</div>
-</div>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>For more complex installations, such as nightly releases, see <a href="../../client/install-kn">Install <code>kn</code></a></p>
-</div>
-</div>
+<p>By labeling the Kubernetes Service you can restrict visibility in a more
+fine-grained way. See <a href="../../../../serving/using-subroutes">subroutes</a> for information about tagged routes.</p>
+</li>
+<li>
+<p>To label a Route when the Route is used directly without a Knative Service:</p>
+<div class="highlight"><pre><span></span><code>kubectl label route <span class="si">${</span><span class="nv">ROUTE_NAME</span><span class="si">}</span> networking.knative.dev/visibility<span class="o">=</span>cluster-local
+</code></pre></div>
+</li>
+<li>
+<p>To label a Kubernetes Service:</p>
+<div class="highlight"><pre><span></span><code>kubectl label service <span class="si">${</span><span class="nv">SERVICE_NAME</span><span class="si">}</span> networking.knative.dev/visibility<span class="o">=</span>cluster-local
+</code></pre></div>
+</li>
+</ul>
+<h3 id="example">Example<a class="headerlink" href="#example" title="Permanent link">&para;</a></h3>
+<p>You can deploy the <a href="../../../../serving/samples/hello-world/helloworld-go/">Hello World sample</a> and then convert it to be an cluster-local Service by labelling the Service:</p>
+<div class="highlight"><pre><span></span><code>kubectl label kservice helloworld-go networking.knative.dev/visibility<span class="o">=</span>cluster-local
+</code></pre></div>
+<p>You can then verify that the change has been made by verifying the URL for the
+<code>helloworld-go</code> Service:</p>
+<div class="highlight"><pre><span></span><code>kubectl get kservice helloworld-go
+
+NAME            URL                                              LATESTCREATED         LATESTREADY           READY   REASON
+helloworld-go   http://helloworld-go.default.svc.cluster.local   helloworld-go-2bz5l   helloworld-go-2bz5l   True
+</code></pre></div>
+<p>The Service returns the a URL with the <code>svc.cluster.local</code> domain, indicating
+the Service is only available in the cluster-local network.</p>
                 
               
               
@@ -4009,7 +4234,7 @@ cd client/
       <!-- Link to previous page -->
       
         <a
-          href="../"
+          href="../creating-services/"
           class="md-footer__link md-footer__link--prev"
           rel="prev"
         >
@@ -4021,7 +4246,7 @@ cd client/
               <span class="md-footer__direction">
                 Previous
               </span>
-              Before you begin
+              Creating a Service
             </div>
           </div>
         </a>
@@ -4030,7 +4255,7 @@ cd client/
       <!-- Link to next page -->
       
         <a
-          href="../first-service/"
+          href="../custom-domains/"
           class="md-footer__link md-footer__link--next"
           rel="next"
         >
@@ -4039,7 +4264,7 @@ cd client/
               <span class="md-footer__direction">
                 Next
               </span>
-              First Knative Service
+              Configuring custom domains
             </div>
           </div>
           <div class="md-footer__button md-icon">
@@ -4107,10 +4332,10 @@ cd client/
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
     </div>
-    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.instant", "navigation.tracking", "navigation.tabs.sticky", "navigation.indexes", "navigation.top"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}, "search": "../../assets/javascripts/workers/search.60c1e489.min.js", "version": {"provider": "mike"}}</script>
+    <script id="__config" type="application/json">{"base": "../../../..", "features": ["navigation.tabs", "navigation.instant", "navigation.tracking", "navigation.tabs.sticky", "navigation.indexes", "navigation.top"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}, "search": "../../../../assets/javascripts/workers/search.60c1e489.min.js", "version": {"provider": "mike"}}</script>
     
     
-      <script src="../../assets/javascripts/bundle.c46528a6.min.js"></script>
+      <script src="../../../../assets/javascripts/bundle.c46528a6.min.js"></script>
       
     
   </body>
