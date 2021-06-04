@@ -1218,6 +1218,8 @@
         
           
         
+          
+        
       
       
         
@@ -1289,6 +1291,20 @@
     <li class="md-nav__item">
       <a href="../../../developer/serving/services/configure-requests-limits-services/" class="md-nav__link">
         Configure resource requests and limits
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../developer/serving/services/deployment/" class="md-nav__link">
+        Modifying the Deployment Config Map
       </a>
     </li>
   
@@ -1434,8 +1450,6 @@
       
         
           
-            
-          
         
           
         
@@ -1447,14 +1461,10 @@
         
       
       
-        
-        
-        <div class="md-nav__link md-nav__link--container ">
-          <a href="../../deploying-from-private-registry/">Developer Topics</a>
-          <label for="__nav_5_2">
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        </div>
+        <label class="md-nav__link" for="__nav_5_2">
+          Developer Topics
+          <span class="md-nav__icon md-icon"></span>
+        </label>
       
       <nav class="md-nav" aria-label="Developer Topics" data-md-level="2">
         <label class="md-nav__title" for="__nav_5_2">
@@ -1464,6 +1474,17 @@
         <ul class="md-nav__list" data-md-scrollfix>
           
             
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../deploying-from-private-registry/" class="md-nav__link">
+        Deploying from private registries
+      </a>
+    </li>
+  
+
             
           
             
@@ -1912,8 +1933,6 @@
         
           
         
-          
-        
       
       
         <label class="md-nav__link" for="__nav_5_4">
@@ -1927,20 +1946,6 @@
           Administrator Topics
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../services/deployment.md" class="md-nav__link">
-        Deployment Configuration
-      </a>
-    </li>
-  
-
-            
           
             
               
@@ -2047,7 +2052,7 @@
   
     <li class="md-nav__item">
       <a href="../../using-auto-tls/" class="md-nav__link">
-        Enabling auto TLS certs
+        Enabling auto-TLS certs
       </a>
     </li>
   
@@ -2254,12 +2259,6 @@
         
           
             
-          
-        
-          
-        
-          
-        
           
         
       
@@ -2530,48 +2529,6 @@
             
           
             
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../../_index/" class="md-nav__link">
-        Welcome to Knative
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../../knative-offerings/" class="md-nav__link">
-        Knative Offerings
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../../samples/" class="md-nav__link">
-        Knative code samples
-      </a>
-    </li>
-  
-
             
           
         </ul>
@@ -3714,6 +3671,12 @@
             
           
         
+          
+        
+          
+        
+          
+        
       
       
         
@@ -3944,6 +3907,48 @@
             
           
             
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../_index/" class="md-nav__link">
+        Welcome to Knative
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../knative-offerings/" class="md-nav__link">
+        Knative Offerings
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../samples/" class="md-nav__link">
+        Knative code samples
+      </a>
+    </li>
+  
+
             
           
         </ul>
@@ -4281,7 +4286,7 @@
 <p>Knative Serving supports the implementation of Knative Pod Autoscaler (KPA) and Kubernetes' Horizontal Pod Autoscaler (HPA). The features and limitations of each of these Autoscalers are listed below.</p>
 <p><strong>IMPORTANT:</strong> If you want to use Kubernetes Horizontal Pod Autoscaler (HPA),
 you must install it after you install Knative Serving.
-For how to install HPA, see <a href="../../install/install-extensions.md#install-optional-serving-extensions">Install optional Eventing extensions</a>.</p>
+For how to install HPA, see <a href="../../../admin/install/install-extensions/#install-optional-serving-extensions">Install optional Serving extensions</a>.</p>
 <h3 id="knative-pod-autoscaler-kpa">Knative Pod Autoscaler (KPA)<a class="headerlink" href="#knative-pod-autoscaler-kpa" title="Permanent link">&para;</a></h3>
 <ul>
 <li>Part of the Knative Serving core and enabled by default once Knative Serving is installed.</li>

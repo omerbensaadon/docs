@@ -1218,6 +1218,8 @@
         
           
         
+          
+        
       
       
         
@@ -1289,6 +1291,20 @@
     <li class="md-nav__item">
       <a href="../../developer/serving/services/configure-requests-limits-services/" class="md-nav__link">
         Configure resource requests and limits
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../developer/serving/services/deployment/" class="md-nav__link">
+        Modifying the Deployment Config Map
       </a>
     </li>
   
@@ -1432,8 +1448,6 @@
       
         
           
-            
-          
         
           
         
@@ -1445,14 +1459,10 @@
         
       
       
-        
-        
-        <div class="md-nav__link md-nav__link--container ">
-          <a href="../../serving/deploying-from-private-registry/">Developer Topics</a>
-          <label for="__nav_5_2">
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        </div>
+        <label class="md-nav__link" for="__nav_5_2">
+          Developer Topics
+          <span class="md-nav__icon md-icon"></span>
+        </label>
       
       <nav class="md-nav" aria-label="Developer Topics" data-md-level="2">
         <label class="md-nav__title" for="__nav_5_2">
@@ -1462,6 +1472,17 @@
         <ul class="md-nav__list" data-md-scrollfix>
           
             
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../serving/deploying-from-private-registry/" class="md-nav__link">
+        Deploying from private registries
+      </a>
+    </li>
+  
+
             
           
             
@@ -1794,8 +1815,6 @@
         
           
         
-          
-        
       
       
         <label class="md-nav__link" for="__nav_5_4">
@@ -1809,20 +1828,6 @@
           Administrator Topics
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../serving/services/deployment.md" class="md-nav__link">
-        Deployment Configuration
-      </a>
-    </li>
-  
-
-            
           
             
               
@@ -1929,7 +1934,7 @@
   
     <li class="md-nav__item">
       <a href="../../serving/using-auto-tls/" class="md-nav__link">
-        Enabling auto TLS certs
+        Enabling auto-TLS certs
       </a>
     </li>
   
@@ -2136,12 +2141,6 @@
         
           
             
-          
-        
-          
-        
-          
-        
           
         
       
@@ -2412,48 +2411,6 @@
             
           
             
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../_index/" class="md-nav__link">
-        Welcome to Knative
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../knative-offerings/" class="md-nav__link">
-        Knative Offerings
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../samples/" class="md-nav__link">
-        Knative code samples
-      </a>
-    </li>
-  
-
             
           
         </ul>
@@ -3652,6 +3609,12 @@
             
           
         
+          
+        
+          
+        
+          
+        
       
       
         
@@ -3882,6 +3845,48 @@
             
           
             
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../_index/" class="md-nav__link">
+        Welcome to Knative
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../knative-offerings/" class="md-nav__link">
+        Knative Offerings
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../samples/" class="md-nav__link">
+        Knative code samples
+      </a>
+    </li>
+  
+
             
           
         </ul>
@@ -4163,7 +4168,7 @@ This allows users like you to try out new features and provide feedback back to 
 <p>You must have a Knative cluster running with the Eventing component installed. <a href="../install/">Learn more</a></p>
 <h2 id="experimental-features-configuration">Experimental features configuration<a class="headerlink" href="#experimental-features-configuration" title="Permanent link">&para;</a></h2>
 <p>When installing Eventing, the <code>config-features</code> ConfigMap is added to your cluster in the <code>knative-eventing</code> namespace.
-In order to enable a feature, you just need to add it to the config map and set its value to <code>"enabled"</code>.
+In order to enable a feature, you just need to add it to the config map and set its value to <code>enabled</code>.
 For example, to enable <code>new-cool-feature</code>:</p>
 <div class="highlight"><pre><span></span><code><span class="nt">apiVersion</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">v1</span>
 <span class="nt">kind</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">ConfigMap</span>
@@ -4175,9 +4180,9 @@ For example, to enable <code>new-cool-feature</code>:</p>
     <span class="nt">knative.dev/config-propagation</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">original</span>
     <span class="nt">knative.dev/config-category</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">eventing</span>
 <span class="nt">data</span><span class="p">:</span>
-  <span class="nt">new-cool-feature</span><span class="p">:</span> <span class="s">&quot;enabled&quot;</span>
+  <span class="nt">new-cool-feature</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">enabled</span>
 </code></pre></div>
-<p>In order to disable it, you can either remove the flag or set it to <code>"disabled"</code>:</p>
+<p>In order to disable it, you can either remove the flag or set it to <code>disabled</code>:</p>
 <div class="highlight"><pre><span></span><code><span class="nt">apiVersion</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">v1</span>
 <span class="nt">kind</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">ConfigMap</span>
 <span class="nt">metadata</span><span class="p">:</span>
@@ -4188,7 +4193,7 @@ For example, to enable <code>new-cool-feature</code>:</p>
     <span class="nt">knative.dev/config-propagation</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">original</span>
     <span class="nt">knative.dev/config-category</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">eventing</span>
 <span class="nt">data</span><span class="p">:</span>
-  <span class="nt">new-cool-feature</span><span class="p">:</span> <span class="s">&quot;disabled&quot;</span>
+  <span class="nt">new-cool-feature</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">disabled</span>
 </code></pre></div>
 <h2 id="features-list">Features list<a class="headerlink" href="#features-list" title="Permanent link">&para;</a></h2>
 <!-- TODO there are no experimental features at the moment -->

@@ -229,13 +229,15 @@
         
   
   
+    
+  
 
 
   
   
   
     <li class="md-tabs__item">
-      <a href="../../../" class="md-tabs__link">
+      <a href="../../../" class="md-tabs__link md-tabs__link--active">
         Developer guide
       </a>
     </li>
@@ -1121,12 +1123,14 @@
 
   
   
+    
+  
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" checked>
       
       
       
@@ -1162,12 +1166,14 @@
               
   
   
+    
+  
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_2" type="checkbox" id="__nav_4_2" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_2" type="checkbox" id="__nav_4_2" checked>
       
       
       
@@ -1194,18 +1200,22 @@
               
   
   
+    
+  
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_2_1" type="checkbox" id="__nav_4_2_1" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_2_1" type="checkbox" id="__nav_4_2_1" checked>
       
       
       
         
           
             
+          
+        
           
         
           
@@ -1288,6 +1298,67 @@
       <a href="../configure-requests-limits-services/" class="md-nav__link">
         Configure resource requests and limits
       </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Modifying the Deployment Config Map
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Modifying the Deployment Config Map
+      </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#accessing-the-deployment-configmap" class="md-nav__link">
+    Accessing the Deployment ConfigMap
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#configuring-progress-deadlines" class="md-nav__link">
+    Configuring progress deadlines
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -1430,8 +1501,6 @@
       
         
           
-            
-          
         
           
         
@@ -1443,14 +1512,10 @@
         
       
       
-        
-        
-        <div class="md-nav__link md-nav__link--container ">
-          <a href="../../../../serving/deploying-from-private-registry/">Developer Topics</a>
-          <label for="__nav_5_2">
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        </div>
+        <label class="md-nav__link" for="__nav_5_2">
+          Developer Topics
+          <span class="md-nav__icon md-icon"></span>
+        </label>
       
       <nav class="md-nav" aria-label="Developer Topics" data-md-level="2">
         <label class="md-nav__title" for="__nav_5_2">
@@ -1460,6 +1525,17 @@
         <ul class="md-nav__list" data-md-scrollfix>
           
             
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../serving/deploying-from-private-registry/" class="md-nav__link">
+        Deploying from private registries
+      </a>
+    </li>
+  
+
             
           
             
@@ -1792,8 +1868,6 @@
         
           
         
-          
-        
       
       
         <label class="md-nav__link" for="__nav_5_4">
@@ -1807,20 +1881,6 @@
           Administrator Topics
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../../../serving/services/deployment.md" class="md-nav__link">
-        Deployment Configuration
-      </a>
-    </li>
-  
-
-            
           
             
               
@@ -1927,7 +1987,7 @@
   
     <li class="md-nav__item">
       <a href="../../../../serving/using-auto-tls/" class="md-nav__link">
-        Enabling auto TLS certs
+        Enabling auto-TLS certs
       </a>
     </li>
   
@@ -2134,12 +2194,6 @@
         
           
             
-          
-        
-          
-        
-          
-        
           
         
       
@@ -2410,48 +2464,6 @@
             
           
             
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../../../_index/" class="md-nav__link">
-        Welcome to Knative
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../../../knative-offerings/" class="md-nav__link">
-        Knative Offerings
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../../../samples/" class="md-nav__link">
-        Knative code samples
-      </a>
-    </li>
-  
-
             
           
         </ul>
@@ -3594,6 +3606,12 @@
             
           
         
+          
+        
+          
+        
+          
+        
       
       
         
@@ -3824,6 +3842,48 @@
             
           
             
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../_index/" class="md-nav__link">
+        Welcome to Knative
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../knative-offerings/" class="md-nav__link">
+        Knative Offerings
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../samples/" class="md-nav__link">
+        Knative code samples
+      </a>
+    </li>
+  
+
             
           
         </ul>
@@ -4119,8 +4179,6 @@ The value is expressed as a Go <code>time.Duration</code> string representation,
   <span class="l l-Scalar l-Scalar-Plain">...</span>
 </code></pre></div>
                 
-                  
-                
               
               
                 
@@ -4152,7 +4210,7 @@ The value is expressed as a Go <code>time.Duration</code> string representation,
       <!-- Link to previous page -->
       
         <a
-          href="../custom-domains/"
+          href="../configure-requests-limits-services/"
           class="md-footer__link md-footer__link--prev"
           rel="prev"
         >
@@ -4164,7 +4222,7 @@ The value is expressed as a Go <code>time.Duration</code> string representation,
               <span class="md-footer__direction">
                 Previous
               </span>
-              None
+              Configure resource requests and limits
             </div>
           </div>
         </a>
@@ -4173,7 +4231,7 @@ The value is expressed as a Go <code>time.Duration</code> string representation,
       <!-- Link to next page -->
       
         <a
-          href="../private-services/"
+          href="../../troubleshooting/debugging-application-issues/"
           class="md-footer__link md-footer__link--next"
           rel="next"
         >
@@ -4182,7 +4240,7 @@ The value is expressed as a Go <code>time.Duration</code> string representation,
               <span class="md-footer__direction">
                 Next
               </span>
-              None
+              Debugging application issues
             </div>
           </div>
           <div class="md-footer__button md-icon">

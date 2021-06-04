@@ -1267,6 +1267,8 @@
         
           
         
+          
+        
       
       
         
@@ -1338,6 +1340,20 @@
     <li class="md-nav__item">
       <a href="../../developer/serving/services/configure-requests-limits-services/" class="md-nav__link">
         Configure resource requests and limits
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../developer/serving/services/deployment/" class="md-nav__link">
+        Modifying the Deployment Config Map
       </a>
     </li>
   
@@ -1481,8 +1497,6 @@
       
         
           
-            
-          
         
           
         
@@ -1494,14 +1508,10 @@
         
       
       
-        
-        
-        <div class="md-nav__link md-nav__link--container ">
-          <a href="../../serving/deploying-from-private-registry/">Developer Topics</a>
-          <label for="__nav_5_2">
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        </div>
+        <label class="md-nav__link" for="__nav_5_2">
+          Developer Topics
+          <span class="md-nav__icon md-icon"></span>
+        </label>
       
       <nav class="md-nav" aria-label="Developer Topics" data-md-level="2">
         <label class="md-nav__title" for="__nav_5_2">
@@ -1511,6 +1521,17 @@
         <ul class="md-nav__list" data-md-scrollfix>
           
             
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../serving/deploying-from-private-registry/" class="md-nav__link">
+        Deploying from private registries
+      </a>
+    </li>
+  
+
             
           
             
@@ -1843,8 +1864,6 @@
         
           
         
-          
-        
       
       
         <label class="md-nav__link" for="__nav_5_4">
@@ -1858,20 +1877,6 @@
           Administrator Topics
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../serving/services/deployment.md" class="md-nav__link">
-        Deployment Configuration
-      </a>
-    </li>
-  
-
-            
           
             
               
@@ -1978,7 +1983,7 @@
   
     <li class="md-nav__item">
       <a href="../../serving/using-auto-tls/" class="md-nav__link">
-        Enabling auto TLS certs
+        Enabling auto-TLS certs
       </a>
     </li>
   
@@ -2185,12 +2190,6 @@
         
           
             
-          
-        
-          
-        
-          
-        
           
         
       
@@ -2461,48 +2460,6 @@
             
           
             
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../_index/" class="md-nav__link">
-        Welcome to Knative
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../knative-offerings/" class="md-nav__link">
-        Knative Offerings
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../samples/" class="md-nav__link">
-        Knative code samples
-      </a>
-    </li>
-  
-
             
           
         </ul>
@@ -3645,6 +3602,12 @@
             
           
         
+          
+        
+          
+        
+          
+        
       
       
         
@@ -3875,6 +3838,48 @@
             
           
             
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../_index/" class="md-nav__link">
+        Welcome to Knative
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../knative-offerings/" class="md-nav__link">
+        Knative Offerings
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../samples/" class="md-nav__link">
+        Knative code samples
+      </a>
+    </li>
+  
+
             
           
         </ul>
@@ -4159,6 +4164,52 @@
 </div>
 <h2 id="install-the-knative-cli">Install the Knative CLI<a class="headerlink" href="#install-the-knative-cli" title="Permanent link">&para;</a></h2>
 <p>The Knative CLI (<code>kn</code>) provides a quick and easy interface for creating Knative resources such as Knative services and event sources, without the need to create or modify YAML files directly. <code>kn</code> also simplifies completion of otherwise complex procedures such as autoscaling and traffic splitting.</p>
+<div class="admonition todo">
+<p class="admonition-title">Installing the <code>kn</code> CLI</p>
+<div class="tabbed-set" data-tabs="1:4"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><label for="__tabbed_1_1">Using Homebrew</label><div class="tabbed-content">
+<p>For macOS, you can install <code>kn</code> by using <a href="https://github.com/knative/homebrew-client" target="_blank">Homebrew</a>.</p>
+<div class="highlight"><pre><span></span><code>brew install knative/client/kn
+</code></pre></div>
+</div>
+<input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><label for="__tabbed_1_2">Using a binary</label><div class="tabbed-content">
+<p>You can install <code>kn</code> by downloading the executable binary for your system and placing it in the system path.</p>
+<p>A link to the latest stable binary release is available on the <a href="https://github.com/knative/client/releases" target="_blank"><code>kn</code> release page</a>.</p>
+</div>
+<input id="__tabbed_1_3" name="__tabbed_1" type="radio" /><label for="__tabbed_1_3">Using Go</label><div class="tabbed-content">
+<ol>
+<li>
+<p>Check out the <code>kn</code> client repository:</p>
+<div class="highlight"><pre><span></span><code>git clone https://github.com/knative/client.git
+cd client/
+</code></pre></div>
+</li>
+<li>
+<p>Build an executable binary:</p>
+<div class="highlight"><pre><span></span><code>hack/build.sh -f
+</code></pre></div>
+</li>
+<li>
+<p>Move <code>kn</code> into your system path, and verify that <code>kn</code> commands are working properly. For example:</p>
+<div class="highlight"><pre><span></span><code>kn version
+</code></pre></div>
+</li>
+</ol>
+</div>
+<input id="__tabbed_1_4" name="__tabbed_1" type="radio" /><label for="__tabbed_1_4">Using a container image</label><div class="tabbed-content">
+<p>Links to images are available here:</p>
+<ul>
+<li><a href="https://gcr.io/knative-releases/knative.dev/client/cmd/kn" target="_blank">Latest release</a></li>
+</ul>
+<p>You can run <code>kn</code> from a container image. For example:</p>
+<div class="highlight"><pre><span></span><code>docker run --rm -v &quot;$HOME/.kube/config:/root/.kube/config&quot; gcr.io/knative-releases/knative.dev/client/cmd/kn:latest service list
+</code></pre></div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Running <code>kn</code> from a container image does not place the binary on a permanent path. This procedure must be repeated each time you want to use <code>kn</code>.</p>
+</div>
+</div>
+</div>
+</div>
                 
               
               
