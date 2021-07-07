@@ -16,6 +16,16 @@
   width: 3rem;
   height: 2.4rem;
 }
+.md-header__button.md-logo {
+  transition-duration: 0.2s;
+  transition-property: transform;
+}
+
+.md-header__button.md-logo:hover {
+  opacity: 1;
+  transform: rotate(5deg);
+  -webkit-transform: rotate(5deg);
+}
 
 .md-nav__item--nested>.md-nav__link, .md-nav__item a {
   color: var(--nav-item-color);
@@ -55,8 +65,18 @@
 
 /* bit of a hack to stop the banner taking space when empty */
 .md-announce .md-announce__inner {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
+}
+.md-announce {
+  background: #fff5b5;
+}
+.md-announce .versionwarning p {
+  color: black;
+}
+.md-announce a {
+  color: blue;
+  text-decoration: underline;
 }
 
 /* text sizing of tables, Alert, Warnings, Notes*/
