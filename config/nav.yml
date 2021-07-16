@@ -2,9 +2,8 @@ INHERIT: redirects.yml
 
 nav:
     - Home: index.md
-    - Getting Started:
-        - Before you begin: getting-started/README.md
-        - Knative Quickstart: getting-started/install-knative-quickstart.md
+    - Getting started:
+        - Knative Quickstart: getting-started/README.md
         - Using Knative Serving:
           - First Knative Service: getting-started/first-service.md
           - Scaling to Zero: getting-started/first-autoscale.md
@@ -18,7 +17,7 @@ nav:
         - What's Next?: getting-started/next-steps.md
     # Administration guide
     - Administration guide:
-        - Overview: admin/README.md
+        - Administration guide: admin/README.md
         - Installing Knative:
           - Overview: admin/install/README.md
           # Serving Installation
@@ -53,6 +52,7 @@ nav:
         # Serving config
         - Knative Serving configuration:
           - Configure Deployment resources: admin/serving/deployment.md
+          - Configuring gradual rollout of traffic to Revisions: admin/serving/rolling-out-latest-revision-configmap.md
         # Eventing config
         - Knative Eventing configuration:
           - Configure Broker defaults: admin/eventing/broker-configuration.md
@@ -68,6 +68,7 @@ nav:
             - Configuring custom domains: developer/serving/services/custom-domains.md
             - Configure resource requests and limits: developer/serving/services/configure-requests-limits-services.md
           - Traffic management: developer/serving/traffic-management.md
+          - Configuring gradual rollout of traffic to Revisions: developer/serving/rolling-out-latest-revision.md
           - Deploying from private registries: developer/serving/deploying-from-private-registry.md
           - Tag resolution: developer/serving/tag-resolution.md
           - Troubleshooting:
@@ -112,8 +113,6 @@ nav:
     - Knative Serving:
       - Overview: serving/README.md
       - Developer Topics:
-        - Gradually rolling out latest Revisions: serving/rolling-out-latest-revision.md
-        - Creating and using Subroutes: serving/using-subroutes.md
         - Load balancing:
           - Overview: serving/load-balancing/README.md
           - Configuring target burst capacity: serving/load-balancing/target-burst-capacity.md
